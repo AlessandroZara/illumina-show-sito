@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesso – Illumina Show (bozza)</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <main class="section">
+        <div class="container" style="max-width: 420px; margin-inline: auto; text-align: center;">
+            <h1 class="section-title">Area riservata</h1>
+            <p class="section-desc">
+                Questa è una bozza privata del sito di Illumina Show, pensata solo per revisione.
+            </p>
+
+            <form id="login-form" class="card" style="padding: var(--space-6); margin-top: var(--space-6);">
+                <div class="form-group" style="margin-bottom: var(--space-4); text-align: left;">
+                    <label for="username" class="form-label">Utente</label>
+                    <input type="text" id="username" class="form-input" autocomplete="username" required>
+                </div>
+
+                <div class="form-group" style="margin-bottom: var(--space-6); text-align: left;">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" id="password" class="form-input" autocomplete="current-password" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-yellow" style="width: 100%;">
+                    Entra
+                </button>
+
+                <p id="login-error" style="margin-top: var(--space-3); color: var(--color-error); display: none;">
+                    Credenziali non valide.
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <script src="../assets/js/login.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
