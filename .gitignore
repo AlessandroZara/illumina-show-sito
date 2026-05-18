@@ -1,0 +1,29 @@
+# Node / build tools (in caso vengano aggiunti in futuro)
+node_modules/
+dist/
+build/
+.tmp/
+.cache/
+
+# Dipendenze front-end
+bower_components/
+
+# Sistemi operativi
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Log / temporanei
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# File di sistema vari
+*.swp
+*.swo

@@ -1,0 +1,142 @@
+.hero-dictionary {
+    min-height: 52vh;
+    display: flex;
+    align-items: center;
+}
+
+.narrow {
+    max-width: 860px;
+    margin-inline: auto;
+}
+
+.eyebrow {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-accent);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.dictionary-intro {
+    padding-top: 3rem;
+}
+
+.dictionary-split {
+    align-items: stretch;
+}
+
+.dictionary-note {
+    display: flex;
+    align-items: center;
+}
+
+.section-heading-row {
+    margin-bottom: 2rem;
+}
+
+.dictionary-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.dictionary-card {
+    position: relative;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 28px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(7, 36, 41, 0.05);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.dictionary-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(7, 36, 41, 0.10);
+    border-color: rgba(226, 174, 43, 0.55);
+}
+
+.dictionary-letter {
+    display: inline-flex;
+    width: 42px;
+    height: 42px;
+    border-radius: 999px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(226, 174, 43, 0.16);
+    color: var(--color-accent-dark);
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.dictionary-card h3 {
+    font-size: 1.7rem;
+    margin-bottom: 0.4rem;
+}
+
+.dictionary-tag {
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.82rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.quotes-strip-section {
+    overflow: hidden;
+}
+
+.quotes-strip {
+    display: flex;
+    gap: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0.5rem 0;
+}
+
+.quotes-strip span {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.85rem 1.2rem;
+    border-radius: 999px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(22px);
+}
+
+.reveal-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+@media (max-width: 1024px) {
+    .dictionary-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-dictionary {
+        min-height: auto;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    .dictionary-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .dictionary-card {
+        padding: 1.5rem;
+        border-radius: 22px;
+    }
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Episodi | Illumina Show</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,700,900&f[]=cabinet-grotesk@800,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="./index.html" class="logo">
+                <img src="../images/logo_illumina.png" alt="Logo Illumina Show" class="logo-img">
+            </a>
+
+            <button class="nav-toggle" aria-label="Apri menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav">
+                <ul class="nav-list" role="list">
+                    <li><a href="./index.html" class="nav-link">Home</a></li>
+                    <li><a href="./episodi.html" class="nav-link">Episodi</a></li>
+                    <li><a href="./live.html" class="nav-link">Live in Teatro</a></li>
+                    <li><a href="./facce.html" class="nav-link">Le facce</a></li>
+                    <li><a href="./sponsor.html" class="nav-link">Sponsor</a></li>
+                    <li><a href="./dizionario.html" class="nav-link">Dizionario</a></li>
+                    <li>
+                        <button id="theme-toggle" class="theme-toggle" aria-label="Cambia tema">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <path
+                                    d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42">
+                                </path>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="section">
+            <div class="container">
+                <h1 class="section-title">Archivio Episodi</h1>
+                <p class="section-desc">
+                    Puntate in studio, deliri in teatro e misteriose apparizioni di Dolmen.
+                </p>
+
+                <div class="grid">
+                    <!-- Episodio 1: lo show dei preti -->
+                    <article class="card">
+                        <div class="video-wrapper">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/E-G_4oQpg3c?si=QRvPXBp1LXw7OdFF"
+                                title="LIVE! Lo show dei PRETI: errori ai funerali, il dentifricio di Gesù, nomi da Papa" frameborder="0" allowfullscreen
+                                loading="lazy"></iframe>
+                        </div>
+                        <div class="card-content">
+                            <span class="badge badge-live">In Live</span>
+                            <h3 class="video-title">Lo show dei preti</h3>
+                            <p class="video-desc">
+                                Quella volta in cui abbiamo parlato con quattro preti e la cosa è finita
+                                su Striscia la Notizia. Giuriamo che la partenza era tranquilla.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Episodio 2: supermercati valdostani -->
+                    <article class="card">
+                        <div class="video-wrapper">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JAMVQ8IoRIU"
+                                title="LIVE! Commentiamo i supermercati valdostani" frameborder="0" allowfullscreen
+                                loading="lazy"></iframe>
+                        </div>
+                        <div class="card-content">
+                            <span class="badge badge-live">In Live</span>
+                            <h3 class="video-title">I supermercati valdostani</h3>
+                            <p class="video-desc">
+                                La guida definitiva su dove fare la spesa, tra Sbippini e il mistero
+                                del porro a nord nel carrello.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Episodio 3: proverbi locali -->
+                    <article class="card">
+                        <div class="video-wrapper">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/i1HhAnoRPzw"
+                                title="Commentiamo i vostri PROVERBI LOCALI molto creativi" frameborder="0"
+                                allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="card-content">
+                            <span class="badge badge-studio">In studio</span>
+                            <h3 class="video-title">Proverbi locali creativi</h3>
+                            <p class="video-desc">
+                                Il grande momento in cui la saggezza popolare diventa materiale
+                                perfetto per rovinare rapporti di vicinato.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Episodio 4: Game Show valdostano -->
+                    <article class="card">
+                        <div class="video-wrapper">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/znEfgppDX9A"
+                                title="LIVE! Il Game Show valdostano" frameborder="0" allowfullscreen
+                                loading="lazy"></iframe>
+                        </div>
+                        <div class="card-content">
+                            <span class="badge badge-live">In Live</span>
+                            <h3 class="video-title">Il Game Show valdostano</h3>
+                            <p class="video-desc">
+                                La serata in cui la Valle d’Aosta ha scoperto che anche i quiz
+                                possono far venire il mal di pancia dal ridere.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Episodio 5: Game Show con Don Jean-Claude -->
+                    <article class="card">
+                        <div class="video-wrapper">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/r7duTvxXo6U"
+                                title="LIVE! Il GAME SHOW di Illumina - Don Jean-Claude, gender e proverbi inesistenti"
+                                frameborder="0" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="card-content">
+                            <span class="badge badge-live">In Live</span>
+                            <h3 class="video-title">Game Show</h3>
+                            <p class="video-desc">
+                                Quando metti insieme preti, gender, proverbi inventati e punti bonus
+                                a caso, il risultato non può che essere discutibile ma indimenticabile.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Episodio 6: Milano live -->
+                    <article class="card">
+                        <div class="video-wrapper">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eyJXQhEepj0"
+                                title="LIVE! Debuttiamo a MILANO - dilemmi quotidiani, Dolmen mima cose, messaggi vocali e nuove buste"
+                                frameborder="0" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="card-content">
+                            <span class="badge badge-live">In Live</span>
+                            <h3 class="video-title">Debutto a Milano</h3>
+                            <p class="video-desc">
+                                La prima volta fuori Valle: dilemmi quotidiani, Dolmen che mima di tutto
+                                e buste misteriose che nessuno aveva chiesto.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Episodio 7: episodio recente “pollo pizza…” -->
+                    <article class="card">
+                        <div class="video-wrapper">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8PlhdIkUtTw"
+                                title="pollo pizza, Sal Da Vinci, mamma di Collura, bugie da adulti" frameborder="0"
+                                allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="card-content">
+                            <span class="badge badge-live">In Live</span>
+                            <h3 class="video-title">Dilemmi Moderni</h3>
+                            <p class="video-desc">
+                                Un’analisi molto poco scientifica su cibo discutibile, musica
+                                discutibile e scelte di vita ancora più discutibili.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Episodio 8: episodio recente “scene hot…” -->
+                    <article class="card">
+                        <div class="video-wrapper">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/O5LuZlpCrY4"
+                                title="scene hot, risate diaboliche, soap opera e divinità animali" frameborder="0"
+                                allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="card-content">
+                            <span class="badge badge-live">In Live</span>
+                            <h3 class="video-title">I Doppiatori</h3>
+                            <p class="video-desc">
+                                Soap opera improbabili, risate diaboliche e un pantheon di animali
+                                che nessuna religione aveva richiesto.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- CTA: tutti i video su YouTube -->
+                <div class="episodes-cta">
+                    <a class="btn btn-secondary btn-yellow" href="https://www.youtube.com/@illuminashow/videos"
+                        target="_blank" rel="noopener noreferrer">
+                        Guarda tutti i video su YouTube
+                    </a>
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Illumina Show. Tutti i diritti riservati (anche sulle cit).</p>
+            <div class="footer-policy-links">
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="cookie-policy.html">Cookie Policy</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.youtube.com/@illuminashow" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://open.spotify.com/show/6ma9wNEipdfqEIEDqQOysj" target="_blank"
+                    rel="noopener noreferrer">Spotify</a>
+                <a href="https://www.instagram.com/illumina.show/" target="_blank"
+                    rel="noopener noreferrer">Instagram</a>
+                <a href="https://www.ticketone.it/eventseries/illumina-show-4076842/" target="_blank"
+                    rel="noopener noreferrer">TicketOne</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

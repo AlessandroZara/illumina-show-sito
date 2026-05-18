@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Illumina Show</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,700,900&f[]=cabinet-grotesk@800,900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header class="header">
+    <div class="container header-container">
+        <a href="./index.html" class="logo">
+            <img src="../images/logo_illumina.png" alt="Logo Illumina Show" class="logo-img">
+        </a>
+
+        <button class="nav-toggle" aria-label="Apri menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav-list" role="list">
+                <li><a href="./index.html" class="nav-link">Home</a></li>
+                <li><a href="./episodi.html" class="nav-link">Episodi</a></li>
+                <li><a href="./live.html" class="nav-link">Live in Teatro</a></li>
+                <li><a href="./facce.html" class="nav-link">Le facce</a></li>
+                <li><a href="./sponsor.html" class="nav-link">Sponsor</a></li>
+                <li><a href="./dizionario.html" class="nav-link">Dizionario</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Cambia tema">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+    <main>
+        
+    <!-- HERO -->
+    <section class="hero hero-home">
+    <div class="container">
+        <h1 class="hero-title">
+            Benvenuto in <span class="highlight">Illumina Show</span>
+        </h1>
+        <p class="hero-subtitle">
+            Illumina Show è un videopodcast fatto di puntate in studio, live dal vivo, ospiti, ironia e conversazioni che prendono spesso strade impreviste. 
+            <br>
+            Un progetto leggero ma curato, dove si ride molto, si toccano tanti temi diversi e si costruisce puntata dopo puntata un mondo fatto di volti, frasi e momenti che restano.
+        </p>
+        <div class="hero-actions">
+            <a href="./episodi.html" class="btn btn-primary">Guarda gli episodi</a>
+            <a href="https://www.ticketone.it/eventseries/illumina-show-4076842/" target="_blank" class="btn btn-outline">Vieni a vederci dal vivo</a>
+        </div>
+    </div>
+</section>
+
+    <!-- PREVIEW STUDIO -->
+    <section class="section">
+        <div class="container split-container">
+            <div class="split-text">
+                <h2>Rinchiusi in Studio</h2>
+                <p>Tra microfoni, luci e il salottino dove nasce la magia (o il caos). Qui &egrave; dove commentiamo il mondo, discutiamo di supermercati e ospitiamo personaggi assurdi in un ambiente controllato. Pi&ugrave; o meno controllato.</p>
+                <a href="./episodi.html" class="btn btn-outline mt-2">Scopri gli episodi in studio</a>
+            </div>
+            <div class="split-image">
+                <!-- Sostituisci questa src con la foto dello studio -->
+                <img src="../images/nello_studio.png" alt="Il salottino dello studio di Illumina Show">
+            </div>
+        </div>
+    </section>
+
+    <!-- PREVIEW LIVE TEATRO -->
+    <section class="section" style="background: var(--color-surface);">
+        <div class="container split-container reverse">
+            <div class="split-image">
+                <!-- Sostituisci questa src con lo screenshot del live in teatro -->
+                <img src="../images/live.png    " alt="Illumina Show dal vivo a teatro">
+            </div>
+            <div class="split-text">
+                <h2>Sganciati in Teatro</h2>
+                <p>Cosa succede quando togliamo i filtri e portiamo lo show su un palco? Imprevisti, ospiti a sorpresa, confessioni imbarazzanti dal pubblico e fonici che fanno miracoli.</p>
+                <a href="./live.html" class="btn btn-primary mt-2">Scopri l'atmosfera Live</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PREVIEW FACCE -->
+    <section class="section">
+        <div class="container text-center">
+            <h2 class="section-title">Le facce che vedete (quasi) sempre</h2>
+            <p class="section-desc text-center">Un conduttore ansioso, una mamma in pianta stabile, esperti di spesa, di Sanremo e di Patois. Un ecosistema di personaggi che rende Illumina quello che &egrave;.</p>
+
+            <div class="grid-3" style="text-align: left;">
+                <div class="card">
+                    <!-- Foto placeholder -->
+                    <img src="../images/luca_dodaro.png" alt="Luca Dodaro" class="card-img-top">
+                    <div class="card-content">
+                        <h3 class="face-name">Luca Dodaro</h3>
+                        <p class="face-role">Host &amp; Ideatore</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../images/collura.png" alt="Collura" class="card-img-top">
+                    <div class="card-content">
+                        <h3 class="face-name">Collura</h3>
+                        <p class="face-role">Presenza Storica</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../images/altri_ospiti.png" alt="Ospiti" class="card-img-top">
+                    <div class="card-content">
+                        <h3 class="face-name">Gli altri Folli</h3>
+                        <p class="face-role">Esperti &amp; Amici</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="./facce.html" class="btn btn-outline mt-4">Incontra tutto il cast</a>
+        </div>
+    </section>
+
+    <!-- PREVIEW SPONSOR -->
+    <section class="section section-dark">
+        <div class="container text-center">
+            <h2 class="section-title">Come stiamo in piedi</h2>
+            <p class="section-desc text-center">Il progetto &egrave; sostenibile e pu&ograve; proseguire grazie anche ai nostri sponsor storici e a chi crede in noi.</p>
+
+            <div class="sponsor-box" style="background: transparent; border-color: var(--color-accent);">
+                <!-- Volendo qui puoi mettere il logo dello sponsor al posto del testo -->
+                 <img src="../images/cidac.png" alt=" logo cidac" class="sponsor-logo-home">
+                <p class="sponsor-joke" style="color: rgba(255,255,255,0.7);">Perch&eacute; Cidac, ci d&agrave;...</p>
+            </div>
+
+            <a href="./sponsor.html" class="btn btn-primary mt-2">Scopri i nostri Partner</a>
+        </div>
+    </section>
+
+    <!-- DIZIONARIO ILLUMINA -->
+    <section class="section" style="background: var(--color-surface);">
+        <div class="container">
+            <h2 class="section-title text-center">Il Dizionario di Illumina</h2>
+            <p class="section-desc text-center">Le parole, le cit e i modi di dire che ritornano nel nostro mondo. Una piccola anteprima per orientarsi meglio tra live, studio e deliri vari.</p>
+
+            <div class="grid-3">
+                <div class="card card-content text-center">
+                    <h3 class="face-name">Sbippino</h3>
+                    <p class="face-role">Strumento sacro</p>
+                    <p>Il dispositivo della Cidac per scansionare la spesa. Maneggiarlo è un'arte, perderlo nel carrello è un dramma.</p>
+                </div>
+                <div class="card card-content text-center">
+                    <h3 class="face-name">Porro a nord</h3>
+                    <p class="face-role">Tecnica di seduzione</p>
+                    <p>Posizionare un porro nella parte nord del carrello per lanciare segnali chiarissimi in corsia.</p>
+                </div>
+                <div class="card card-content text-center">
+                    <h3 class="face-name">Giacca Montura</h3>
+                    <p class="face-role">Outfit d'ordinanza</p>
+                    <p>Da abbinare alle scarpe Salomon e a un passo fiero ma ondulato. In pratica, un classico.</p>
+                </div>
+            </div>
+
+            <div class="dictionary-home-link text-center">
+                <a href="./dizionario.html" class="btn btn-outline mt-4">Apri il Dizionario di Illumina</a>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+        <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Illumina Show. Tutti i diritti riservati (anche sulle cit).</p>
+            <div class="footer-policy-links">
+                <a href="./privacy-policy.html">Privacy Policy</a>
+                <a href="./cookie-policy.html">Cookie Policy</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.youtube.com/@illuminashow" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://open.spotify.com/show/6ma9wNEipdfqEIEDqQOysj" target="_blank" rel="noopener noreferrer">Spotify</a>
+                <a href="https://www.instagram.com/illumina.show/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://www.ticketone.it/eventseries/illumina-show-4076842/" target="_blank" rel="noopener noreferrer">TicketOne</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
