@@ -1,0 +1,65 @@
+<div class="cookie-banner" id="cookie-banner" aria-hidden="true">
+  <div class="cookie-banner-inner">
+    <h3 class="cookie-banner-title">Usiamo i cookie (poche cose, promesso)</h3>
+    <p class="cookie-banner-text">
+      Questo sito utilizza cookie tecnici per funzionare e, solo con il tuo consenso, cookie di statistica e di terze parti.
+      Puoi accettare tutto, rifiutare o scegliere le preferenze. Per saperne di più leggi la nostra
+      <a href="./cookie-policy.html">Cookie Policy</a>.
+    </p>
+    <div class="cookie-banner-actions">
+      <button type="button" class="btn btn-outline" id="cookie-reject-all">Rifiuta tutto</button>
+      <button type="button" class="btn btn-outline" id="cookie-settings">Preferenze</button>
+      <button type="button" class="btn btn-primary" id="cookie-accept-all">Accetta tutto</button>
+    </div>
+  </div>
+</div>
+
+<div class="cookie-modal" id="cookie-modal" aria-hidden="true" role="dialog" aria-labelledby="cookie-modal-title">
+  <div class="cookie-modal-inner">
+    <h3 id="cookie-modal-title">Preferenze cookie</h3>
+    <p class="cookie-modal-text">
+      Scegli quali categorie di cookie autorizzare. I cookie tecnici sono sempre attivi perché necessari al funzionamento del sito.
+    </p>
+
+    <div class="cookie-category">
+      <div class="cookie-category-header">
+        <div>
+          <strong>Cookie tecnici</strong>
+          <p>Servono a far funzionare il sito (es. salvataggio tema chiaro/scuro).</p>
+        </div>
+        <span class="cookie-badge">Sempre attivi</span>
+      </div>
+    </div>
+
+    <div class="cookie-category">
+      <div class="cookie-category-header">
+        <div>
+          <strong>Cookie di statistica</strong>
+          <p>Ci aiutano a capire quante persone visitano il sito e come lo usano (es. analytics anonimizzati).</p>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="cookie-consent-statistics">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+
+    <div class="cookie-category">
+      <div class="cookie-category-header">
+        <div>
+          <strong>Cookie di marketing / terze parti</strong>
+          <p>Usati da contenuti esterni (es. YouTube, social embed) per mostrare video o widget.</p>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="cookie-consent-marketing">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+
+    <div class="cookie-modal-actions">
+      <button type="button" class="btn btn-outline" id="cookie-modal-cancel">Annulla</button>
+      <button type="button" class="btn btn-primary" id="cookie-modal-save">Salva preferenze</button>
+    </div>
+  </div>
+</div>
