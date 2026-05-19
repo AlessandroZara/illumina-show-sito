@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
       sessionStorage.setItem("illuminaLoggedIn", "true");
 
       // Vai alla home del prototipo (pages/index.html)
-      window.location.href = "../../pages/index.html";
+      window.location.href = "../../index.html";
     } else {
       errorEl.style.display = "block";
     }
